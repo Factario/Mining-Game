@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: rgba(75, 36, 4, 0.63);
+}
+
+#value {
+    text-align: center;
+    font-size: 40px;
+}
+
+.game {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#copper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 115, 0);
+}
+
+#iron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(139, 137, 136);
+}
+
+#steel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  
+  background-color: rgb(204, 198, 193);
+}
+
+#blackSteel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(44, 43, 42);
+}
+
+#mythril {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(7, 48, 182);
+}
+
+#adamantite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(54, 192, 41);
+}
+
+#runite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(9, 120, 194);
+}
+
+#container{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#button {
+  margin: auto;
+  font-size: 40px;
+}
