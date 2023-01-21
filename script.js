@@ -67,7 +67,7 @@ rectangle6.addEventListener("click", function() {
 
 let button = document.getElementById("button");
 button.addEventListener("click", function() {
-    if(copperCount===10 && ironCount===10 && steelCount===10 && blackSteelCount===10 && mythrilCount===10 && adamantiteCount===10 && runiteCount===10) {
+    if(copperCount>=10 && ironCount>=10 && steelCount>=10 && blackSteelCount>=10 && mythrilCount>=10 && adamantiteCount>=0 && runiteCount>=10) {
             alert("You win")
         } else {
             alert("You need 10 of everything")
